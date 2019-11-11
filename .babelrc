@@ -1,0 +1,25 @@
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": [
+    [
+      "prismjs",
+      {
+        "languages": ["javascript", "css", "markup", "markdown", "bash"],
+        "plugins": ["line-numbers"],
+        "theme": "coy",
+        "css": true
+      }
+    ]
+  ]
+}
+
+// "plugins": [
+//   [
+//     "prismjs",
+//     {
+//       "languages": ["javascript", "css", "markup", "markdown", "bash"],
+//       "theme": "coy",
+//       "css": true
+//     }
+//   ]
+// ]
