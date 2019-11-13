@@ -9,16 +9,16 @@ export default {
   output: {
     file: "dist/assets/js/bundle.js",
     format: "iife",
-    name: "tomsbundle"
+    name: "mcrbundle",
   },
   plugins: [
     commonJS(),
     resolve(),
     babel({
-      exclude: "node_modules/**"
+      exclude: "node_modules/**",
     }),
-    json()
-  ]
+    json(),
+  ],
 };
 //* rollup-plugin-commonjs should go before other plugins that transform your
 //* modules — this is to prevent other plugins from making changes that break
