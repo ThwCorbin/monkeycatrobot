@@ -1,0 +1,48 @@
+/*> Reset */
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.layout {
+  display: grid;
+  grid-template-rows: 10em 1fr 10em;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-areas:
+    "header-left header-nav header-right"
+    "aside-one main aside-two"
+    "footer-left footer-nav footer-right";
+}
+
+header,
+main,
+footer {
+  max-width: 30em;
+}
+
+header {
+  grid-area: header-nav;
+}
+
+footer {
+  grid-area: footer-nav;
+}
+
+.asideOne {
+  grid-area: aside-one;
+}
+
+.asideTwo {
+  grid-area: aside-two;
+}
+
+main {
+  grid-area: main;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}

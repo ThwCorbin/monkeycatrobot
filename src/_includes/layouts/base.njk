@@ -13,11 +13,12 @@
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
   </head>
   <body>
+    <div class="layout">
       {% include "partials/_header.njk" %}
-      {% include "partials/_aside.njk" %}
+      {% include "partials/_aside1.njk" %}
       {% block main %} 
       {% endblock %} 
-      {% include "partials/_aside.njk" %}
+      {% include "partials/_aside2.njk" %}
       {% include "partials/_footer.njk" %}
     </div>
   </body>
