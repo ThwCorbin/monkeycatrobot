@@ -1,1 +1,3 @@
-console.log("Hiya luna!");
+import { hiLuna } from "./assets/js/script.js";
+
+hiLuna();
