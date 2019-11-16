@@ -22,8 +22,6 @@
       {% include "partials/_footer.njk" %}
     </div>
   </body>
-  <script type="text/javascript" src="/assets/js/bundle.js"></script>
+  <script type="module" src="/assets/js/bundle.js"></script>
+  <script nomodule src="/assets/js/bundle.js"></script>
 </html>
-<!-- Dodgy relative paths for link href and script src may cause
-error: "...blocked due to MIME type (“text/html”) mismatch 
-(X-Content-Type-Options: nosniff)" -->
