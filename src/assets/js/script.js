@@ -1,3 +1,4 @@
-const hiLuna = () => console.log("Hiya luna!");
+//> Test if *.js is loading
+const hiyaLuna = () => console.log("Hiya luna!");
 
-export { hiLuna };
+export { hiyaLuna };

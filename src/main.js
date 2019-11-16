@@ -1,3 +1,3 @@
-import { hiLuna } from "./assets/js/script.js";
+import { hiyaLuna } from "./assets/js/script.js";
 
-hiLuna();
+hiyaLuna();
