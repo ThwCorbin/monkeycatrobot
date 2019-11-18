@@ -72,6 +72,11 @@ li {
   list-style: none;
 }
 
+.similarParts {
+  list-style-type: circle;
+  font-size: smaller;
+}
+
 hr {
   width: 15em;
   border: 0.1em solid var(--violet);
