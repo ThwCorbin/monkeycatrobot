@@ -27,4 +27,7 @@ $ git clone https://github.com/ThwCorbin/monkeycatrobot
 $ cd monkeycatrobot
 $ npm install
 $ npm run build
+
+// Access local URL: http://localhost:8080
+// [Browsersync] Serving files from: dist
 ```
